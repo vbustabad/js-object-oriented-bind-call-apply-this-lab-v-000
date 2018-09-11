@@ -1,7 +1,6 @@
 //Your code here
 
-function justInvoke(returnsThisAndArgs) = {
-    function() {
+function justInvoke(returnsThisAndArgs) {
       function(returnsThisAndArgs) {
           return this;
       }

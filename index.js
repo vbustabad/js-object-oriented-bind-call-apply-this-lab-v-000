@@ -2,11 +2,11 @@
 
 justInvoke(returnsThisAndArgs) = {
     function() {
-    function(returnsThisAndArgs) {
-        return this;
+      function(returnsThisAndArgs) {
+          return this;
+      }
+      return returnsThisAndArgs();
     }
-    return returnsThisAndArgs();
-  }
 };
 
 // function() {

@@ -1,6 +1,6 @@
 //Your code here
 
-const justInvoke(returnsThisAndArgs) = {
+function justInvoke(returnsThisAndArgs) = {
     function() {
       function(returnsThisAndArgs) {
           return this;

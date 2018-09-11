@@ -1,6 +1,6 @@
 //Your code here
 
-let justInvoke(returnsThisAndArgs) = {
+justInvoke(returnsThisAndArgs) = {
     function(returnsThisAndArgs) {
         return this;
     }

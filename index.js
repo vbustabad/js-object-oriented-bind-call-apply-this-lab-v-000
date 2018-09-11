@@ -1,3 +1,11 @@
 //Your code here
 
-justInvoke(returnsThisAndArgs) = returnsThisAndArgs();
+let justInvoke(returnsThisAndArgs) = {
+  function() {
+    function(returnsThisAndArgs) {
+        return this;
+    }
+    return returnsThisAndArgs();
+  }
+};
+   

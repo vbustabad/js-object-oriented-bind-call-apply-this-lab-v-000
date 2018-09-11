@@ -1,3 +1,3 @@
 //Your code here
 
-justInvoke(returnsThisAndArgs); 
+justInvoke(returnsThisAndArgs) = returnsThisAndArgs();
